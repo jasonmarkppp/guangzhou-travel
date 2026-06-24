@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>会员注册 - 魅力广州</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-wrapper">
+        <header class="site-header">
+            <div class="brand-logo">魅力广州</div>
+            <nav class="nav-links">
+                <a href="index.html">羊城映像</a>
+                <a href="news.html">城市动态</a>
+                <a href="register.html" class="active">会员注册</a>
+            </nav>
+        </header>
+
+        <main class="main-content">
+            <div class="form-container">
+                <h1 class="section-title" style="text-align: center;">加入羊城探索者</h1>
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label class="form-label">用户昵称</label>
+                        <input type="text" class="form-control" placeholder="设置您的个性昵称">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">登录密码</label>
+                        <input type="password" class="form-control" placeholder="设置不少于8位的安全密码">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">探索偏好 (Primary Interest)</label>
+                        <select class="form-control">
+                            <option value="food">寻味老广：早茶与地道小吃</option>
+                            <option value="history">人文历史：西关大屋与陈家祠</option>
+                            <option value="modern">现代都市：珠江新城与广州塔</option>
+                            <option value="nature">自然风光：白云山与越秀公园</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group" style="display: flex; gap: 20px;">
+                        <label class="form-label" style="margin-bottom: 0;">出行方式:</label>
+                        <label><input type="radio" name="travel_type" checked> 自由行</label>
+                        <label><input type="radio" name="travel_type"> 组团游</label>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label">订阅服务</label>
+                        <label style="display: block; margin-top: 8px; color: var(--color-muted); font-size: 14px;">
+                            <input type="checkbox" checked> 接收广州旅游攻略与打折机票提醒
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn-submit">立即注册</button>
+                </form>
+            </div>
+        </main>
+
+        <footer class="site-footer">
+            <div class="copyright">© 2026 魅力广州. All rights reserved.</div>
+            <!-- 页脚信息已更新 -->
+            <div class="student-info">班级：2509 | 学号：20251021166 | 姓名：侯培源</div>
+        </footer>
+    </div>
+</body>
+</html>
